@@ -1,0 +1,18 @@
+.footer-wrapper {
+  position: absolute;
+  z-index: 100;
+
+  & ul {
+    list-style: none;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+
+    & li {
+      display: inline;
+      color: $white;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.8em;
+      margin-left: 2rem;
+    }
+  }
+}
